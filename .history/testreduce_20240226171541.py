@@ -19,4 +19,4 @@ for method, count in request_counts.items():
     print(method, count, sep='\t')
 
 print("Total requests", total_requests, sep='\t')
-print("Total standard HTTP requests", standard_requests_total, sep='\t')
+print("Total_standard_HTTP requests", standard_requests_total, sep='\t')

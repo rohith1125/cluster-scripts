@@ -2,7 +2,7 @@ import sys
 
 request_counts = {}
 total_requests = 0
-standard_methods = ['\"GET', '\"POST', '\"HEAD', '\"PUT', '\"DELETE', '\"OPTIONS', '\"TRACE']
+standard_methods = ["\"GET", "\"POST", "\"HEAD", "\"PUT", "\"DELETE", "\"OPTIONS", "TRACE"]
 standard_requests_total = 0
 
 for line in sys.stdin:
@@ -18,5 +18,5 @@ for line in sys.stdin:
 for method, count in request_counts.items():
     print(method, count, sep='\t')
 
-print("Total requests", total_requests, sep='\t')
-print("Total standard HTTP requests", standard_requests_total, sep='\t')
+print("Total_HTTP_requests", total_requests, sep='\t')
+print("Total_standard_requests", standard_requests_total, sep='\t')
